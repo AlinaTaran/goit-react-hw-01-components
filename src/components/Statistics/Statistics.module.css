@@ -1,0 +1,25 @@
+.statistics {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 10px 0 10px;
+}
+
+.title {
+  text-transform: uppercase;
+  color: lightslategray;
+  font-weight: normal;
+  text-align: center;
+}
+
+.statList {
+  margin-bottom: 4px;
+  text-align: center;
+  padding: 10px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.statListItem {
+  margin-bottom: 4px;
+  color: lightgrey;
+}

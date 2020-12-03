@@ -1,0 +1,39 @@
+.friendList {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 12px 12px 10px 15px;
+  margin: 0 0 10px 0;
+  box-shadow: -2px 5px 5px -4px #000000;
+  transition: transform 0.1 linear;
+}
+
+.item:hover {
+  transform: scale(1.1);
+}
+
+.status {
+  border-radius: 50%;
+  margin-right: 8px;
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.online {
+  composes: status;
+  background-color: green;
+}
+
+.offline {
+  composes: status;
+  background-color: red;
+}
